@@ -10,7 +10,7 @@ const EMAG_USER_REMEMBER_COOKIE = process.env.EMAG_USER_REMEMBER_COOKIE;
 if (!EMAG_USER_REMEMBER_COOKIE)
     console.log("EMAG_USER_REMEMBER_COOKIE not found.");
 const EMAG_FAV_LIST_ID = process.env.EMAG_FAV_LIST_ID;
-const EMAG_FAV_LIST_ITEM_LIMIT = process.env.EMAG_FAV_LIST_ITEM_LIMIT;
+const EMAG_FAV_LIST_ITEM_LIMIT = process.env.EMAG_FAV_LIST_ITEM_LIMIT || 25;
 
 
 export async function favouritesToMarkdownJson(history) {
