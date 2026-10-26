@@ -22,3 +22,17 @@
 
 ## Running the script
 Run the script with `node .` or `node index.js`
+
+A successful run log looks like this:
+```sh
+Fetching Notion page as Markdown...
+Done.
+Fetching favourites list...
+Done.
+Fetching offers list...
+Done.
+Converting products to Markdown...
+Done.
+Saving Markdown text to Notion...
+Done.
+```
